@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+
+<div class="player">
+    <h2>Song of the day</h2>
+    <p>A SK Vibe</p>
+    <audio id="audioPlayer" src="./assets/Raasaathi-Unnai-Kaanatha-Nenjam.mp3"></audio>
+
+     <div class="time-control">
+        <input type="range" id="progressBar" class="progress" value="0" step="0.1">
+       
+    </div>
+
+    <div class="buttons">
+        <button onclick="playAudio()"><img src="assets/icons/play.png"></button>
+        <button onclick="pauseAudio()"><img src="./assets/icons/pause.png"></button>
+        <button onclick="stopAudio()"><img src="./assets/icons/stop.png"></button>
+    </div>
+
+   
+
+</div>
+
+<script src="./script.js"></script>
+
+</body>
+</html>
