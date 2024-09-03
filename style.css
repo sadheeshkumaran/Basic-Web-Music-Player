@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     margin-top: 50px;
+    background-color: black;
 }
 
 .player {
@@ -10,6 +11,7 @@ body {
     border: 1px solid #ccc;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
 }
 
 button {
@@ -26,7 +28,7 @@ button:hover {
     background-color: #0056b3;
 }
 
-img{
+.icon{
     width:10px;
     height: 10px;
 }
@@ -34,3 +36,18 @@ img{
 .buttons{
     margin-top: 15px;
 }
+
+#cover-img{
+
+    width: 300px;
+    height: 200px;
+    border-radius: 3%;
+    display: flex;
+}
+
+.progress{
+    margin-top:20px;
+    width:300px
+    
+}
+
